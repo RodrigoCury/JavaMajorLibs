@@ -1,3 +1,6 @@
+package teste;
+
+import modelo.*;
 
 public class TesteSaca {
 
