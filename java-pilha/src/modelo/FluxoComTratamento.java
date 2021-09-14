@@ -1,3 +1,4 @@
+package modelo;
 public class FluxoComTratamento {
 
 	public static void main(String[] args) {
@@ -18,6 +19,7 @@ public class FluxoComTratamento {
 		System.out.println("Fim do metodo1");
 	}
 
+	@SuppressWarnings("unused")
 	private static void metodo2() {
 		System.out.println("Ini do metodo2");
 		for(int i = 1; i <= 5; i++) {

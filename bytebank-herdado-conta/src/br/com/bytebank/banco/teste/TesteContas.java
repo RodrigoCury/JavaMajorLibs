@@ -1,9 +1,14 @@
+package br.com.bytebank.banco.teste;
+
+import br.com.bytebank.banco.modelo.*;
 
 public class TesteContas {
 
+	@SuppressWarnings("null")
 	public static void main(String[] args) throws SaldoInsuficienteException{
 		
 		int a = 3;
+		@SuppressWarnings("unused")
 		int b = a / 0;
 		
 		

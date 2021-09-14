@@ -1,3 +1,6 @@
+package teste;
+import modelo.Conta;
+import modelo.MinhaExcecao;
 
 public class TestaContaComExcecaoChecked {
 

@@ -1,3 +1,5 @@
+package teste;
+import modelo.Conexao;
 
 public class TesteConexao {
 
