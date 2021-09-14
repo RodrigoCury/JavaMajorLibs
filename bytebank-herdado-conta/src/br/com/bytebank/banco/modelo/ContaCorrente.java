@@ -8,11 +8,6 @@ public class ContaCorrente extends Conta implements Tributavel {
 	}
 	
 	@Override
-	public String toString() {
-		return "Agência: " + super.getAgencia() + "\nConta: " + super.getNumero();
-	}
-	
-	@Override
 	public void saca(double valor) throws SaldoInsuficienteException{
 		double valorASacar = valor + 0.2;
 		super.saca(valorASacar);
