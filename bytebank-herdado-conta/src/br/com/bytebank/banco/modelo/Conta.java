@@ -1,5 +1,11 @@
 package br.com.bytebank.banco.modelo;
 
+/**
+ * 
+ * @author Rodrigo Cury
+ *
+ */
+
 public abstract class Conta {
 
     protected double saldo;
