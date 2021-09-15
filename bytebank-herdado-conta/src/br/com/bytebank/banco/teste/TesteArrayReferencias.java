@@ -40,27 +40,27 @@ public class TesteArrayReferencias {
 		
 	}
 	
-	static void spreadPrint(ContaCorrente ...cc) {
+	private static void spreadPrint(ContaCorrente ...cc) {
 		System.out.println("Spread");
 		for (ContaCorrente ccl: cc) {
 			System.out.println(ccl);
 		}
 	}
 
-	static void argsPrint(ContaCorrente[] cc) {
+	private static void argsPrint(ContaCorrente[] cc) {
 		System.out.println("Args");
 		for (ContaCorrente ccl: cc) {
 			System.out.println(ccl);
 		}
 	}
 	
-	static void listArgsPrint(ContaCorrente[] cc) {
+	private static void listArgsPrint(ContaCorrente[] cc) {
 		System.out.println("List Args");
 		List<ContaCorrente> ls = Arrays.asList(cc);
 		ls.forEach(System.out::println);
 	}
 
-	static void listSpreadPrint(ContaCorrente ...cc) {		
+	private static void listSpreadPrint(ContaCorrente ...cc) {		
 		System.out.println("List Spread");
 		List<ContaCorrente> ls = Arrays.asList(cc);
 		ls.forEach(System.out::println);
