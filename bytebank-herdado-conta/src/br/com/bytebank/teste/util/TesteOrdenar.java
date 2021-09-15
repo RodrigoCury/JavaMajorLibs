@@ -2,6 +2,7 @@ package br.com.bytebank.teste.util;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.Random;
 import br.com.bytebank.banco.modelo.Conta;
 import br.com.bytebank.banco.modelo.ContaCorrente;
@@ -31,7 +32,15 @@ public class TesteOrdenar {
 		
 //		lista.sort(new NumeroDaContaComparator());
 //		Collections.sort(lista, new NumeroDaContaComparator());
-		Collections.sort(lista);
+//		Collections.sort(lista);
+		
+		Collections.sort(lista, new Comparator<Conta>() { // Classe Anônima
+			@Override
+			public int compare(Conta o1, Conta o2) {
+				return Integer.compare(o1.getNumero(), o2.getNumero());
+			}
+		});
+		
 		System.out.println(lista);
 	}
 	
