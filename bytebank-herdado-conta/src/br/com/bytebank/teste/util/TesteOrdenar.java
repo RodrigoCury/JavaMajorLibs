@@ -41,6 +41,10 @@ public class TesteOrdenar {
 			}
 		});
 		
+		lista.sort((Conta o1, Conta o2) -> Integer.compare(o1.getNumero(), o2.getNumero()));
+		
+		lista.sort((o1, o2) -> Integer.compare(o1.getNumero(), o2.getNumero()));
+		
 		System.out.println(lista);
 	}
 	
