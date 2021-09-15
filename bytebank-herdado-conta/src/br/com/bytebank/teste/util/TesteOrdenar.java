@@ -29,9 +29,9 @@ public class TesteOrdenar {
 		
 		System.out.println(lista);
 		
-		lista.sort(new NumeroDaContaComparator());
-		Collections.sort(lista, new NumeroDaContaComparator());
-		
+//		lista.sort(new NumeroDaContaComparator());
+//		Collections.sort(lista, new NumeroDaContaComparator());
+		Collections.sort(lista);
 		System.out.println(lista);
 	}
 	
