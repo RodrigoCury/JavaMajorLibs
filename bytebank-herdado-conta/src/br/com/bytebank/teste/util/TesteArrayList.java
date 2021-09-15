@@ -13,7 +13,7 @@ import br.com.bytebank.banco.modelo.ContaCorrente;
  * @author rodrigo
  *
  */
-public class Teste {
+public class TesteArrayList {
 
 	private static Random rGen = new Random();
 	
