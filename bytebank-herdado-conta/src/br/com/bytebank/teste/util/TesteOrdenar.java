@@ -1,6 +1,7 @@
 package br.com.bytebank.teste.util;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Random;
 import br.com.bytebank.banco.modelo.Conta;
 import br.com.bytebank.banco.modelo.ContaCorrente;
@@ -29,6 +30,7 @@ public class TesteOrdenar {
 		System.out.println(lista);
 		
 		lista.sort(new NumeroDaContaComparator());
+		Collections.sort(lista, new NumeroDaContaComparator());
 		
 		System.out.println(lista);
 	}
